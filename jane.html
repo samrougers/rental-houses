@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit Maintenance Request</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  .form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<h2>Submit Maintenance Request</h2>
+
+<form id="jane2.html" action="examp.html" method="POST">
+  <div class="form-group">
+    <label for="type">Type of Issue:</label>
+    <select id="type" name="type" required>
+      <option value="">Select...</option>
+      <option value="Plumbing">Plumbing</option>
+      <option value="Electrical">Electrical</option>
+      <option value="HVAC">HVAC</option>
+      <option value="jane2.html">General Maintenance</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="urgency">Urgency Level:</label>
+    <select id="urgency" name="urgency" required>
+      <option value="">Select...</option>
+      <option value="Routine">Routine</option>
+      <option value="Urgent">Urgent</option>
+      <option value="Emergency">Emergency</option>
+    </select>
+  </div>
+
+  <div> <button><a href="examp.html"></a>submit</button> </div>
+          
+</form>
+
+</body>
+</html>
+
